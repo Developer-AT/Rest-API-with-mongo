@@ -1,0 +1,19 @@
+{
+  "name": "rest-api-with-mongo",
+  "version": "1.0.0",
+  "description": "Rest Api with mongo Db",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Developer-AT/Rest-API-with-mongo.git"
+  },
+  "author": "Abhishek Tyagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Developer-AT/Rest-API-with-mongo/issues"
+  },
+  "homepage": "https://github.com/Developer-AT/Rest-API-with-mongo#readme"
+}
