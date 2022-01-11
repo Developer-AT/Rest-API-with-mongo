@@ -2,8 +2,10 @@ const express = require('express');
 
 const routerRequest = express.Router();
 
-const bookRoutes = require('./books/books.routes');
+const bookRoutes = require('./book.routes');
+const authorRoutes = require('./author.routes')
 
-routerRequest.use('/books', bookRoutes);
+routerRequest.use('/book', bookRoutes);
+routerRequest.use('/author', authorRoutes);
 
 module.exports = routerRequest;

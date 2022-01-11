@@ -7,7 +7,8 @@ bookRoutes.get('/all', function(req,res){
 })
 
 bookRoutes.post('/add', function(req,res){
-    res.send('Add Book');
+
+    res.send({data: req.body});
 })
 
 bookRoutes.post('/add/bulk', function(req,res){
